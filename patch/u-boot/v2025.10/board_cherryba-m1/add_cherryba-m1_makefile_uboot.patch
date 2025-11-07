@@ -1,0 +1,14 @@
+diff --git a/arch/arm/dts/Makefile b/arch/arm/dts/Makefile
+index 7c8cf3a5a1d..cc0a6ad2538 100644
+--- a/arch/arm/dts/Makefile
++++ b/arch/arm/dts/Makefile
+@@ -691,7 +691,8 @@ dtb-$(CONFIG_MACH_SUN50I) += \
+ 	sun50i-a64-pinephone-1.2.dtb \
+ 	sun50i-a64-pinetab.dtb \
+ 	sun50i-a64-sopine-baseboard.dtb \
+-	sun50i-a64-teres-i.dtb
++	sun50i-a64-teres-i.dtb \
++	sun50i-h618-cherryba-m1.dtb
+ dtb-$(CONFIG_MACH_SUN9I) += \
+ 	sun9i-a80-optimus.dtb \
+ 	sun9i-a80-cubieboard4.dtb \
